@@ -1,0 +1,23 @@
+{
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173/index.html"
+  },
+  "pluginSetting": {
+    "single": true,
+    "height": 600
+  },
+  "features": [
+    {
+      "code": "translate",
+      "explain": "本地AI翻译功能，调用本地大模型提供翻译服务",
+      "cmds": [
+        "翻译",
+        "translate",
+        "fy"
+      ]
+    }
+  ]
+}
